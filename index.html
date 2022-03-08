@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Maria Pittà</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+    <script src="https://kit.fontawesome.com/0bee541048.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Space+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <a href="#about">
+                <li>About</li>
+            </a>
+            <a href="#skills">
+                <li>Skills</li>
+            </a>
+            <a href="#education">
+                <li>Education</li>
+            </a>
+            <a href="#portfolio">
+                <li>Portfolio</li>
+            </a>
+            <a href="#contact">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </nav>
+
+    <!-- BURGER BUTTON -->
+
+    <button id="drawer-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </header>
+    <aside id="mobile-drawer">
+        <nav>
+            <ul>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#skills">Skills</a></li>
+                <li class="nav-item"><a href="#education">Education</a></li>
+                <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </aside>
+
+
+
+    <main>
+
+        <section id="profile">
+            <div id="content">
+                <img src="./images/fotoprofilo.jpg" alt="">
+                <div>
+                    <h1>Maria Pittà</h1>
+                    <h3>Front-end web developer</h3>
+                    <a href="#contact">Hire Me</a>
+                    <a href="./files/Curriculum-en.lnk" target="_blank">Download CV</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="social-btn-container">
+            <div id="social-btn">
+                <a href="https://www.facebook.com/000mariposa000" target="_blank">
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/m.posa/" target="_blank">
+                    <i class="fa fa-instagram"></i>
+                </a>
+                <a href="https://github.com/marypitty" target="_blank">
+                    <i class="fa fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/maria-pitta/" target="_blank">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+
+        <section class="about-container" id="about">
+            <div id="row-left-about">
+                <h1>About Me</h1>
+                <p>From the moment I produced "Hello World!" in the console of my first project, I knew I was hooked into the world of web development. This world offers me an engaging challenge to continually learn and improve my skills in creating high-quality
+                    websites. What started with a simple "Hello World!" has become a full-fledged passion that gets more exciting as time goes by.</p>
+            </div>
+
+            <div id="row-right-about">
+                <H1>Bio</H1>
+                <ul>
+                    <li><strong>DATE OF BIRTH:</strong>
+                        <div>24 Dec 1987</div>
+                    </li>
+                    <li><strong>EMAIL:</strong>
+                        <div>marypitta@hotmail.it</div>
+                    </li>
+                    <li><strong>PHONE:</strong>
+                        <div>+393475920099</div>
+                    </li>
+                    <li><strong>ADDRESS:</strong>
+                        <div>Via A. Algardi, 13 (Milano)</div>
+                    </li>
+                    <li><strong>LANGUAGES:</strong>
+                        <div>Italian, English, Spanish</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills-container" id="skills">
+            <h1>Professional Skills</h1>
+            <div class="rows">
+                <div id="row-right-skills">
+                    <ul>
+                        <li><strong>HTML</strong>
+
+                            <div class="bar">
+                                <span style="width: 100%;">100%</span>
+                            </div>
+                        </li>
+                        <li><strong>CSS</strong>
+                            <div class="bar">
+                                <span style="width: 100%;">100%</span>
+                            </div>
+                        </li>
+                        <li><strong>JAVASCRIPT</strong>
+                            <div class="bar">
+                                <span style="width: 70%;">70%</span>
+                            </div>
+                        </li>
+                        <li><strong>TYPESCRIPT</strong>
+                            <div class="bar">
+                                <span style="width: 80%;">80%</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div id="row-left-skills">
+                    <ul>
+                        <li><strong>BOOTSTRAP</strong>
+                            <div class="bar">
+                                <span style="width: 90%;">90%</span>
+                            </div>
+                        </li>
+                        <li><strong>ANGULAR 2</strong>
+                            <div class="bar">
+                                <span style="width: 80%;">80%</span>
+                            </div>
+                        </li>
+                        <li><strong>ANGULAR MATERIAL</strong>
+                            <div class="bar">
+                                <span style="width: 100%;">100%</span>
+                            </div>
+                        </li>
+                        <li><strong>GIT & GitHub</strong>
+                            <div class="bar">
+                                <span style="width: 90%;">90%</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="education-container" id="education">
+            <h1>Education & Courses</h1>
+
+            <!-- <div class="edu-card">
+                <div class="card">
+                    <h2>Bachelor's degree in International Communication</h2>
+                    <h3>- University of Catania -</h3>
+                    <p>Languages, Communication, Marketing</p>
+                </div>
+            </div>
+
+            <div class="edu-card">
+                <div class="card">
+                    <h2>100 days of Code - Web development Bootcamp</h2>
+                    <h3> - Udemy -</h3>
+                    <p> <strong>Front-end:</strong> HTML, CSS, Javascript / <strong>Back-end:</strong> NodeJS and ExpressJS </p>
+                    <p> <strong>Databases:</strong> SQL and NoSQL / <strong>Frameworks:</strong> View.js - Bootstrap </p>
+                </div>
+            </div>
+
+            <div class="edu-card">
+                <div class="card">
+                    <h2>Bootstrap, how to build a website</h2>
+                    <h3> - Life Learning -</h3>
+                    <p>How to use the most famous CSS framework</p>
+                </div>
+            </div>
+
+
+            <div class="edu-card">
+                <div class="card">
+                    <h2>Google Digital Training</h2>
+                    <h3> - The Open University - </h3>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="edu-card">
+                <div class="card">
+                    <h2>Programming with Python</h2>
+                    <h3> - Udemy - </h3>
+                    <p></p>
+                </div>
+            </div> -->
+
+            <!-- secondo esempio -->
+
+            <div class="edu-cards">
+                <div class="card-left">
+                    <h4>2006 - 2010</h4>
+                    <h3>Bachelor's degree</h3>
+                </div>
+                <div class="card-right">
+                    <h2>Science for International Communication</h2>
+                    <h4>University of Catania</h4>
+                    <p>Languages, Communication, Marketing</p>
+                </div>
+            </div>
+
+            <div class="edu-cards">
+                <div class="card-left">
+                    <h4>2021 - 2022</h4>
+                    <h3>Online Course</h3>
+                </div>
+                <div class="card-right">
+                    <h2>100 days of Code - Web development Bootcamp</h2>
+                    <h4>Udemy</h4>
+                    <p> HTML, CSS, Javascript / NodeJS and ExpressJS / SQL and NoSQL / View.js - Bootstrap</p>
+                </div>
+            </div>
+
+            <div class="edu-cards">
+                <div class="card-left">
+                    <h4>2020 - 2021</h4>
+                    <h3>Online Course</h3>
+                </div>
+                <div class="card-right">
+                    <h2>Bootstrap, how to build a website</h2>
+                    <h4>Life Learning</h4>
+                    <p> How to use the most famous CSS framework</p>
+                </div>
+            </div>
+
+            <div class="edu-cards">
+                <div class="card-left">
+                    <h4>2018 - 2019</h4>
+                    <h3>Online Course</h3>
+                </div>
+                <div class="card-right">
+                    <h2>Google Digital Training</h2>
+                    <h4>The Open University</h4>
+                    <p> HTML, CSS, Javascript / NodeJS and ExpressJS / SQL and NoSQL / View.js - Bootstrap</p>
+                </div>
+            </div>
+
+            <div class="edu-cards">
+                <div class="card-left">
+                    <h4>2021 - 2022</h4>
+                    <h3>Online Course</h3>
+                </div>
+                <div class="card-right">
+                    <h2>Programming with Python</h2>
+                    <h4>Udemy</h4>
+                    <p>Understand the basic of Python programming language: functions of input and output. Variables and different types of data. Data sequences: Lists, tuples, Sets and Frozenset. The use of loops: For and While. How to create functions.</p>
+
+                </div>
+            </div>
+
+
+
+        </section>
+
+        <section class="portfolio-container" id="portfolio">
+            <h1>Portfolio</h1>
+
+            <div class="portfolio-box">
+                <ul>
+                    <li>
+                        <a href="https://meteo-app2.vercel.app/" target="_blank"><img src="./images/weather-forecast.jpg" alt=""></a>
+                    </li>
+                    <li class="content-img">
+                        <p>Angular / Material / Typescript</p>
+                        <h3>Weather App</h3>
+                        <h4>Angular app to get current and forecast weather by city. Used Material for the responsive design and OpenWeatherMap.org website for APIs support</h4>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="content-img reversed">
+                        <p>HTML / CSS / JavaScript</p>
+                        <h3>Tic Tac Toe Game</h3>
+                        <h4>Built the famous Tic Tac Toe Game focusing on Javascript program language. Come inside and test the game!</h4>
+                        <li>
+                            <a href="https://tic-tac-toe-marypitty.vercel.app/" target="_blank"><img src="./images/tictactoegame.jpg" alt=""></a>
+                        </li>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li>
+                        <a href="https://travel-landingpage-olbdh2zb4-marypitty.vercel.app/" target="_blank"><img src="./images/travel.jpg" alt=""></a>
+                    </li>
+                    <li class="content-img">
+                        <p>Frontend / HTML / CSS</p>
+                        <h3>Travel Landingpage</h3>
+                        <h4>Travel Landingpage built with Html and CSS</h4>
+                    </li>
+                </ul>
+
+                <ul>
+                    <li class="content-img reversed">
+                        <p>UX / HTML / CSS</p>
+                        <h3>Food Mobile App</h3>
+                        <h4>Landingpage of a food application. Website is created with Html and CSS with a responsive design for smartphones.</h4>
+                        <li>
+                            <a href=""><img src="./images/foodapp.jpg" alt=""></a>
+                        </li>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact-container" id="contact">
+            <h1>Contact</h1>
+            <div class="contact-box">
+                <div class="box-left">
+                    <h4> <i class="fa fa-phone"></i>+393475920099</h4>
+                    <h4> <i class="fa fa-envelope"></i>marypitta@hotmail.it</h4>
+
+                    <form method="post" action="mailto:marypitta@hotmail.it" enctype="text/plain">
+                        <div id="input-table">
+                            <div id="name">
+                                <input type="text" placeholder="Name" required!>
+                            </div>
+
+                            <div id="email">
+                                <input type="email" placeholder="Email address" required!>
+                            </div>
+
+                            <div id="text">
+                                <textarea name="Write your message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                            </div>
+                            <button id="input-button">Send</button>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="box-right">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2797.2948484597614!2d9.143242851044514!3d45.484006978998636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c10a47068541%3A0x9ef3c3f11fd14785!2sVia%20Alessandro%20Algardi%2C%2013%2C%2020148%20Milano%20MI!5e0!3m2!1sit!2sit!4v1637685972946!5m2!1sit!2sit"
+                        width="500" height="400" style="border:0;width:100%;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h5>Resume created by <strong>Maria Pittà</strong> </h5>
+    </footer>
+
+</body>
+
+</html>
