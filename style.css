@@ -362,7 +362,7 @@
              
              @media(max-width:48rem) {
                  .edu-cards {
-                     height: 13rem;
+                     height: 11rem;
                  }
              }
              
@@ -370,6 +370,12 @@
                  background-color: rgba(219, 157, 204, 0.973);
                  color: white;
                  text-align: center;
+             }
+             
+             @media(max-width:48rem) {
+                 .card-left {
+                     width: 82px;
+                 }
              }
              
              .card-left h3 {
@@ -445,11 +451,6 @@
                  border-radius: 5px;
                  border: 1px solid grey;
              }
-             /*  @media(max-width:48rem) {
-                                     .portfolio-box img {
-                                         height: 15rem;
-                                     }
-                                 } */
              
              .content-img {
                  padding: 2rem;
