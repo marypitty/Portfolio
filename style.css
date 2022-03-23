@@ -133,7 +133,6 @@
  }
  
  #social-btn {
-     width: 20rem;
      position: absolute;
      top: 0%;
      left: 50%;
@@ -153,7 +152,7 @@
      margin-right: 8px;
      position: relative;
      border-radius: 30px;
-     display: inline-block;
+     display: table-cell;
      text-align: center;
      vertical-align: middle;
      background-color: rgba(219, 157, 204, 0.973);
